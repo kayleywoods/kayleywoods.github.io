@@ -2,14 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>15 Variations</title>
+    <title>15 Variations - KW</title>
     <style media=screen>
 
 
 a {
-  color:white;
+  color: white;
   font-size: 24px;
   font-family: courier;
+  position: relative;
+}
+
+a:hover{
+  opacity: 0.5;
+  font-size: 24px;
+  font-family: courier;
+  position: relative;
 }
 
 .all {
@@ -25,7 +33,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 10px;
@@ -39,7 +47,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 100px;
@@ -47,28 +55,28 @@ a {
 
 .link1a {
   width:25px;
-  height: 90px;
+  height: 130px;
   background: #cccc33;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
-  margin-top: 210px;
+  margin-top: 170px;
 
 }
 
 .link2a {
   width:25px;
-  height: 100px;
+  height: 150px;
   background: #ffcc99;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 350px;
@@ -76,12 +84,12 @@ a {
 
 .link2b {
   width:25px;
-  height: 200px;
+  height: 220px;
   background: #ffcc66;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 350px;
@@ -95,7 +103,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 350px;
@@ -109,7 +117,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 100px;
@@ -123,7 +131,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 10px;
@@ -137,7 +145,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 100px;
@@ -151,7 +159,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 350px;
@@ -159,13 +167,13 @@ a {
 
 .link4b {
   width:25px;
-  height: 200px;
+  height: 220px;
   background: #cc99cc;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 350px;
@@ -173,13 +181,13 @@ a {
 
 .link4c {
   width:25px;
-  height: 100px;
+  height: 150px;
   background: #996699;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 350px;
@@ -187,16 +195,16 @@ a {
 
 .link5c {
   width:25px;
-  height: 90px;
+  height: 130px;
   background: #99ccff;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
-  margin-top: 210px;
+  margin-top: 170px;
 }
 
 .link5b {
@@ -207,7 +215,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 100px;
@@ -221,7 +229,7 @@ a {
   padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 10px;
-  border: 2px solid white;
+  border: 2px solid #dddddd;
   display:block;
   float: left;
   margin-top: 10px;
@@ -229,15 +237,80 @@ a {
 
 .rotate {
 
-  transform:rotate(-90deg);
+  transform: rotate(-90deg);
   display: inline-block;
+  transform-origin: top left;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-right: 2px;
+  padding-top: 20px;
 
 }
+
+.rotate-lower {
+
+  transform: rotate(-90deg);
+  display: inline-block;
+  transform-origin: top left;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 15px;
+  padding-bottom: 140px;
+
+}
+
+.rotate-lower1 {
+  transform: rotate(-90deg);
+  display: inline-block;
+  transform-origin: top left;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+margin-right: 900px;
+padding-top: 15px;
+}
+
+.rotate-lower2 {
+
+  transform: rotate(-90deg);
+  display: inline-block;
+  transform-origin: top left;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+  padding-left: 65px;
+
+}
+
+.rotate-lower3 {
+
+  transform: rotate(-90deg);
+  display: inline-block;
+  transform-origin: top left;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+  margin-right: 500px;
+  padding-left: 55px;
+
+}
+
     </style>
 
 
   </head>
   <body>
+
+    <body style="background-color:#dddddd;">
 
 <div class= "all">
 
@@ -250,21 +323,20 @@ a {
         <span class="rotate">Level 1B </span>
       </a>
 
-
 		<a class=link1c href="level1c.html">
       <span class="rotate">Level 1C </span>
     </a>
 
     <a class=link2a href="level2a.html">
-        <span class="rotate">Level 2A </span>
+        <span class="rotate-lower1 ">Level 2A </span>
       </a>
 
       <a class=link2b href="level2b.html">
-          <span class="rotate">Level 2B </span>
+          <span class="rotate-lower3">Level 2B </span>
         </a>
 
       <a class=link2c href="level2c.html">
-      <span class="rotate">Level 2C </span>
+      <span class="rotate-lower ">Level 2C </span>
         </a>
 
         <a class=link3a href="level3a.html">
@@ -280,15 +352,15 @@ a {
         </a>
 
         <a class=link4a href="level4a.html">
-          <span class="rotate">Level 4A </span>
+          <span class="rotate-lower">Level 4A </span>
         </a>
 
         <a class=link4b href="level4b.html">
-          <span class="rotate">Level 4B </span>
+          <span class="rotate-lower2">Level 4B </span>
         </a>
 
         <a class=link4c href="level4C.html">
-          <span class="rotate">Level 4C </span>
+          <span class="rotate-lower1">Level 4C </span>
         </a>
 
         <a class=link5a href="level5a.html">
@@ -302,7 +374,7 @@ a {
         <a class=link5c href="level5c.html">
           <span class="rotate">Level 5C </span>
         </a>
-</div>
+      </div>
 
   </body>
 </html>
