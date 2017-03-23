@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Level1a - KW</title>
+		<title>Level 1.1 - KW</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 
@@ -9,75 +9,69 @@
 
 		a {
 		  color: white;
-		  font-size: 24px;
+		  font-size: 14px;
 		  font-family: courier;
 		  position: relative;
+			align: center;
 		}
 
 		a:hover{
 		  opacity: 0.5;
-		  font-size: 24px;
+		  font-size: 14px;
 		  font-family: courier;
 		  position: relative;
 		}
 
-	.previous {
-	  width:25px;
-	  height: 10px;
-	  background: blue;
-	  display:block;
-	  float: left;
-	  margin-top: 10px;
-	}
-
-}
-.home {
-	width: 700px;
-	height: 290px;
-	background: red;
-	display:block;
-	float: left;
-	margin-top: 10px;
-	margin-left: 100px;
-}
-
-}
 .next {
-	width:400px;
-	height: 290px;
-	background:green;
+	width: 90px;
+	height: 20px;
+	background: #cccc66;
+	display:block;
+	float: left;
+	margin-top: 0px;
+	margin-left: 1200px;
+}
+
+.home {
+	width: 90px;
+	height: 20px;
+	background: #cccc33;
 	display:block;
 	float: left;
 	margin-top: 10px;
+	margin-left: 10px;
 }
 
-.text {
+.next-text {
   display: inline-block;
   transform-origin: top left;
-  width: 200px;
   position: absolute;
-  padding-right: 2px;
-  padding-top: 20px;
+  padding-left: 30px;
+  padding-top: 2px;
+}
+
+.home-text {
+  display: inline-block;
+  transform-origin: top left;
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 2px;
 }
 
 		</style>
 
 	<body>
 
-				<a class=previous href="level1a.html">
-					<span class="text">Previous</span>
+		<a class=home href="home.html">
+			<span class="home-text">home</span>
+		</a>
+
+			<a class=next href="level1b.html">
+					<span class="next-text">next</span>
 				</a>
 
 
-				<a class=home href="index.html">
-					<span class="text">Home</span>
-				</a>
-
-
-				<a class=next href="level1a.html">
-					<span class="text">Next</span>
-				</a>
-<p>
+<div class="body"><p>
 	<br>
 <br>
 <br>
@@ -108,5 +102,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 - Dieter Rams
+
+</div>
 	</body>
 </html>
