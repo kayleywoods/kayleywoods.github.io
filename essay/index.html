@@ -6,6 +6,39 @@
 
 <style media="screen">
 
+a {
+  color: white;
+  font-size: 14px;
+  font-family: courier;
+  position: relative;
+  align: center;
+}
+
+a:hover{
+  opacity: 0.5;
+  font-size: 14px;
+  font-family: courier;
+  position: relative;
+}
+
+.home {
+	width: 90px;
+	height: 20px;
+	background: #cccc33;
+	display:block;
+	float: left;
+	margin-top: 10px;
+}
+
+.home-text {
+  display: inline-block;
+  transform-origin: top left;
+  position: absolute;
+  padding-left: 25px;
+  padding-top: 2px;
+}
+
+
 body {
 
   font-family:courier;
@@ -18,9 +51,10 @@ body {
 h1 {
   border:5px solid;
   border-color: white;
-  text-align: center;
+  text-align: right;
   background-color: #696969;
   color: white;
+  padding-right: 30px;
 }
 
 h2 {text-decoration: underline;
@@ -40,7 +74,12 @@ em {font-family:times;}
   </head>
   <body>
 
-<h1>If It Doesn't Exist on the Internet, It Doesn't Exist</h1>
+    <a class=home href="15_variations/home.html">
+      <span class="home-text">home</span>
+    </a>
+
+
+      <h1>If It Doesn't Exist on the Internet, It Doesn't Exist</h1>
 
 <div style="padding-left:40px;
 padding-right:40px;
