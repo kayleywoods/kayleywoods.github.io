@@ -25,6 +25,12 @@ body {
   padding-bottom: 15px;
 }
 
+.heading {
+  font-family: courier;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .caption {
   color: red;
   display: none;
@@ -90,6 +96,18 @@ flex:0 0 33.33%;
 
 .image2 {
   background-image:url(2.jpg);
+}
+
+.image3 {
+  background-image:url(3.jpg);
+}
+
+.image4 {
+  background-image:url(4.jpg);
+}
+
+.image5 {
+  background-image:url(5.jpg);
 }
 
 .class1 {
