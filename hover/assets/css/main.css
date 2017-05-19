@@ -3,3 +3,42 @@ font-family: arial;
 font-size: 20px;
 color: blue;
 }
+
+
+span {
+  color: red;
+  padding: 5px;
+}
+
+.footnote {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: none;
+}
+
+
+.footnote.showme {
+
+display: block;
+
+}
+
+.thumbnail {
+  width: 10%;
+  display: inline-block;
+  margin-left:20px;
+  transition:1s;
+}
+
+.thumbnail.enlarge {
+  width: 50%;
+  transition:2s;
+  margin-left: 200px;
+}
+
+
+h1 {
+  color: orange;
+  font-family: courier;
+}
