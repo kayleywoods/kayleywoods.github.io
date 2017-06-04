@@ -348,17 +348,17 @@ flex:0 0 33.33%;
 }
 
 .book1 {
-background-color: BlanchedAlmond;
-border: 2px solid #008080;
-}
-
-.book2 {
 background-color: DarkSalmon;
 border: 2px solid #008080;
 }
 
+.book2 {
+background-color: LightSteelBlue;
+border: 2px solid #008080;
+}
+
 .book3 {
-background-color: peachpuff;
+background-color: BlanchedAlmond;
 border: 2px solid #008080;
 }
 
